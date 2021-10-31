@@ -1,0 +1,7 @@
+div {
+  padding: 10vh 10vw;
+  font-size: min(3vw, 3vh);
+  background:#202020;
+  color: #e0e0e0;
+  height: 80vh;
+}

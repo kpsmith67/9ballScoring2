@@ -1,0 +1,117 @@
+div.top {
+  background:#281028;
+}
+
+div.bottom {
+  background:#102210;
+}
+
+div.top, div.bottom {
+  position: relative;
+  color:#707070;
+  width:100vw;
+}
+
+div.active {
+  color: #e0e0e0;
+}
+
+div.rackStats {
+  position: absolute;
+  top: 30vh;
+  font-size: min(5vw, 5vh);
+  color: #e0e0e0;
+}
+
+div.gameStats {
+  position: absolute;
+  top: 25vh;
+  font-size: min(5vw, 5vh);
+  color: #e0e0e0;
+}
+
+div.buttons {
+  position: absolute;
+  top: 37vh;
+  font-size: min(7vw, 7vh);
+  color: #e0e0e0;
+  width: 100%;
+}
+
+div.buttons td {
+  width: 30vw;
+  text-align: center;
+}
+
+div.buttons button {
+  width: 30vw;
+  height: 8vh;
+  font-size: min(5vw, 5vh);
+}
+
+.bottom div.playerbar {
+  bottom: 2vh;
+}
+
+.top div.playerbar {
+  top: 2vh;
+}
+
+div.playerbar {
+  width: 100%;
+  position: absolute;
+}
+
+div.padding {
+  padding: 0vh 2vh;
+}
+
+.playerbar span.section {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.namebar span {
+  font-size: min(7vw, 7vh);
+}
+
+.scorebar span {
+  font-size: min(7vw, 7vh);
+}
+
+span.section span.small {
+  font-size: min(5vw, 5vh);
+}
+
+span.name {
+  width: 70%;
+}
+
+span.timeouts {
+  width: 20%;
+  padding-left: 10%;
+}
+
+span.level {
+  width: 30%;
+}
+
+span.score {
+  width: 65%;
+  padding-left: 5%;
+}
+
+div.deltaWrapper {
+  position: absolute;
+  width: 0;
+  height: 0;
+  color: #ffffff;
+}
+
+div.plus_one {
+  position: relative;
+  opacity: 0.0;
+  top: 0px;
+}

@@ -1,0 +1,7 @@
+/* Add application styles & imports to this file! */
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+
+body {
+  margin: 0px;
+  color:#b0b0b0;
+}

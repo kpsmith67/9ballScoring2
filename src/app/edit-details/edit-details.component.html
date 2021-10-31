@@ -1,0 +1,45 @@
+<div>
+  Edit Player Details
+  <p>
+    <mat-form-field>
+      <mat-label>Player 1</mat-label>
+      <input matInput [(ngModel)]="p[0]">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Level</mat-label>
+      <mat-select [(ngModel)]="l[0]">
+        <mat-option value=1>1</mat-option>
+        <mat-option value=2>2</mat-option>
+        <mat-option value=3>3</mat-option>
+        <mat-option value=4>4</mat-option>
+        <mat-option value=5>5</mat-option>
+        <mat-option value=6>6</mat-option>
+        <mat-option value=7>7</mat-option>
+        <mat-option value=8>8</mat-option>
+        <mat-option value=9>9</mat-option>
+      </mat-select>
+    </mat-form-field>
+  <p>
+    <mat-form-field>
+      <mat-label>Player 2</mat-label>
+      <input matInput [(ngModel)]="p[1]">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Level</mat-label>
+      <mat-select [(ngModel)]="l[1]">
+        <mat-option value=1>1</mat-option>
+        <mat-option value=2>2</mat-option>
+        <mat-option value=3>3</mat-option>
+        <mat-option value=4>4</mat-option>
+        <mat-option value=5>5</mat-option>
+        <mat-option value=6>6</mat-option>
+        <mat-option value=7>7</mat-option>
+        <mat-option value=8>8</mat-option>
+        <mat-option value=9>9</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <p><button mat-raised-button (click)="done()" color="primary">Done</button>
+    <p>
+      <button *ngIf="hasScore" mat-raised-button (click)="reset()" color="primary">Reset Scores</button>
+      <button *ngIf="!hasScore" mat-raised-button (click)="undo()" color="primary">Undo</button>
+</div>
