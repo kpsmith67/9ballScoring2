@@ -1,3 +1,7 @@
+div {
+  user-select: none;
+}
+
 div.top {
   background:#281028;
 }
