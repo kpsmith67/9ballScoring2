@@ -347,6 +347,12 @@ export class MainPaneComponent implements OnInit {
     if (p1_score < old_p1_score) {
       this.score_adders[1].push(p1_score - old_p1_score);
     }
+    if (p0_score > old_p0_score) {
+      this.score_adders[0].push('+' + (p0_score - old_p0_score));
+    }
+    if (p1_score > old_p1_score) {
+      this.score_adders[1].push('+' + (p1_score - old_p1_score));
+    }
   }
 
   activeState(isActive: boolean): string {
